@@ -1,0 +1,233 @@
+ body {
+    margin: 0;
+    font-family: Roboto Condensed,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+    text-align: left;
+    background-color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1 {
+    font-size: 3em;
+}
+h1, h2 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    font-weight:500;
+}
+h3 {
+    font-size: 1.75em;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+a {
+    color: #000;
+    transition: all 0.3s;
+}
+#btnGetHelpNow:hover {
+    background-color: #DBA800;
+}
+.text-helium {
+    color:#ffdb01;
+}
+header.experiencefragment {
+    padding: 0 15px;
+}
+header .bootstrap-container-fluid {
+    width: calc(100vw - 56px);
+}
+main {
+    background: #fff;
+}
+main.container {
+    min-height:50vh;
+    padding: 24px;
+}
+.navbar {
+    padding: 8px;
+}
+.nav-link {
+    transition: all .4s ease-in;
+    color: rgba(255,255,255,0.5)!important;
+    text-decoration: none;
+}
+header.experiencefragment a:focus, header.experiencefragment a:hover {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: rgba(255,255,255,0.75)!important;
+    text-decoration: none;
+}
+.navbar-brand {
+    padding:20px 0;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+.social-media-sharing a {
+    height: 38px;
+    width: 38px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 5px;
+}
+.social-media-sharing img {
+    height: 38px;
+    width: 38px
+}
+.jumbotron {
+    padding: 2rem 1rem;
+}
+.bg-helium {
+    background-color: #ffdb01!important;
+    padding:0.5rem 1.7rem !important;
+}
+.form-control {
+    line-height: 2;
+    border-radius: .25rem;
+}
+media (min-width: 576px)
+.jumbotron {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.jumbotron-1{
+	padding-top:100px;
+    padding-bottom:73px;
+}
+.gutter{
+	-bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) *1);
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#arrow {
+    transition: all .4s ease-in;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 56px !important;
+    margin-right: 67px !important;
+}
+
+
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.col-lg-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+.container-footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-primary {
+    color: #ffdb01!important;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+#help, h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.5em;
+}
+p a {
+    color: var(--primary) !important;
+    text-decoration: none;
+}
+.btn-primary {
+    color: #212529 !important;
+    background-color: #ffdb01 !important;
+    border-color: #ffdb01;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529 !important;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    border: 1px solid transparent !important;
+    padding: 0.375rem 1.75rem;
+    font-size: 1rem;
+    line-height: 2;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+p .btn-primary:hover {
+    background: #DBA800;
+}
+footer a{
+	color:#FFDB01 !important;
+}
+
+.hide {
+      display: none;
+    }
+.aboutUs-Content{
+ 	padding-right:85px; 
+    padding-left:50px;
+}
+#asssessImage{
+	width:125px; 
+    margin-left:-5px;
+}
+#pas-content-title-6af9c2a26f .text-uppercase {
+	margin-left:5px;
+}
+#pas-content-text-07bdce65b4 p{
+
+	margin-left:5px;
+}
+#assessContentSub{ 
+    color: #FFFFFF; 
+    line-height: 1.2em;
+    font-size:1.75rem; 
+    margin-top: -15px;
+}
+#assessList{ 
+	color:#FFFFFF;
+}
